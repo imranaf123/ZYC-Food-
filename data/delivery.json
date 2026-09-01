@@ -1,0 +1,15 @@
+{
+  "distanceRanges": [
+    { "minKm": 0, "maxKm": 3, "fee": 100 },
+    { "minKm": 3, "maxKm": 6, "fee": 150 },
+    { "minKm": 6, "maxKm": 10, "fee": 250 },
+    { "minKm": 10, "maxKm": 15, "fee": 350 }
+  ],
+  "pickup": {
+    "enabled": true,
+    "info": "Skip the line — ready in 20–30 minutes at our counter.",
+    "address": "Same as restaurant address in settings.json"
+  },
+  "minimumOrder": null,
+  "note": "All values above are placeholders and will be replaced by the real owner later. Nothing here may be hard-coded in JS."
+}

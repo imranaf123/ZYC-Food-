@@ -1,0 +1,60 @@
+[
+  {
+    "id": "spice-level",
+    "label": "Spice Level",
+    "type": "single",
+    "required": true,
+    "options": [
+      {
+        "id": "mild",
+        "label": "Mild",
+        "priceDelta": 0
+      },
+      {
+        "id": "medium",
+        "label": "Medium",
+        "priceDelta": 0,
+        "default": true
+      },
+      {
+        "id": "hot",
+        "label": "Hot",
+        "priceDelta": 0
+      }
+    ]
+  },
+  {
+    "id": "crust-type",
+    "label": "Crust Type",
+    "type": "single",
+    "required": true,
+    "options": [
+      {
+        "id": "thin",
+        "label": "Thin Crust",
+        "priceDelta": 0,
+        "default": true
+      },
+      {
+        "id": "regular",
+        "label": "Regular Crust",
+        "priceDelta": 0
+      },
+      {
+        "id": "cheese-burst",
+        "label": "Cheese Burst",
+        "priceDelta": 150
+      },
+      {
+        "id": "thick",
+        "label": "Thick Crust",
+        "priceDelta": 100
+      },
+      {
+        "id": "stuffed",
+        "label": "Stuffed Crust",
+        "priceDelta": 250
+      }
+    ]
+  }
+]

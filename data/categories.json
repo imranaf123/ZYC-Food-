@@ -1,0 +1,8 @@
+[
+  { "id": "burgers", "name": "Burgers", "slug": "burgers", "image": "images/categories/burgers.jpg", "itemCount": 12, "active": true, "order": 1 },
+  { "id": "pizza", "name": "Pizza", "slug": "pizza", "image": "images/categories/pizza.jpg", "itemCount": 15, "active": true, "order": 2 },
+  { "id": "bbq", "name": "BBQ", "slug": "bbq", "image": "images/categories/bbq.jpg", "itemCount": 18, "active": true, "order": 3 },
+  { "id": "wraps", "name": "Wraps", "slug": "wraps", "image": "images/categories/wraps.jpg", "itemCount": 10, "active": true, "order": 4 },
+  { "id": "drinks", "name": "Drinks", "slug": "drinks", "image": "images/categories/drinks.jpg", "itemCount": 8, "active": true, "order": 5 },
+  { "id": "desserts", "name": "Desserts", "slug": "desserts", "image": "images/categories/desserts.jpg", "itemCount": 9, "active": true, "order": 6 }
+]

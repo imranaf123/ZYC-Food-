@@ -1,0 +1,22 @@
+[
+  {
+    "id": "duo-feast",
+    "name": "Duo Feast",
+    "description": "Zinger Burger + BBQ Chicken Pizza, together at a special price.",
+    "image": "images/deals/duo-feast.jpg",
+    "includedProducts": ["zinger-burger", "bbq-chicken-pizza"],
+    "originalPrice": 1798,
+    "dealPrice": 1499,
+    "savings": 299,
+    "badge": { "enabled": true, "text": "Weekend Special", "type": "occasion" },
+    "availability": true,
+    "validity": { "start": null, "end": null },
+    "featured": true,
+    "tags": ["combo"],
+    "seo": {
+      "title": "Duo Feast — ZYC Food",
+      "description": "Zinger Burger + BBQ Chicken Pizza combo, save Rs. 299.",
+      "url": "/deals/duo-feast"
+    }
+  }
+]

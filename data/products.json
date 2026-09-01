@@ -1,0 +1,884 @@
+[
+  {
+    "id": "zinger-burger",
+    "slug": "zinger-burger",
+    "name": "Zinger Burger",
+    "description": "Crispy chicken with signature sauce and fresh lettuce.",
+    "category": "burgers",
+    "images": [
+      "images/products/zinger-burger-1.jpg",
+      "images/products/zinger-burger-2.jpg"
+    ],
+    "basePrice": 499,
+    "sizes": [
+      {
+        "id": "regular",
+        "label": "Regular",
+        "price": 499,
+        "default": true
+      },
+      {
+        "id": "large",
+        "label": "Large",
+        "price": 649
+      }
+    ],
+    "customizationGroups": [
+      "spice-level"
+    ],
+    "addOns": [
+      {
+        "id": "extra-cheese",
+        "label": "Extra Cheese",
+        "price": 100
+      },
+      {
+        "id": "extra-sauce",
+        "label": "Extra Sauce",
+        "price": 50
+      },
+      {
+        "id": "extra-chicken",
+        "label": "Extra Chicken",
+        "price": 200
+      }
+    ],
+    "availability": true,
+    "badge": {
+      "enabled": true,
+      "text": "Eid Special",
+      "type": "occasion"
+    },
+    "featured": true,
+    "popular": true,
+    "rating": {
+      "average": 4.8,
+      "count": 128
+    },
+    "tags": [
+      "chicken",
+      "burger",
+      "bestseller"
+    ],
+    "seo": {
+      "title": "Zinger Burger — ZYC Food",
+      "description": "Crispy chicken zinger burger with signature sauce, from Rs. 499.",
+      "url": "/product/zinger-burger"
+    }
+  },
+  {
+    "id": "bbq-chicken-pizza",
+    "slug": "bbq-chicken-pizza",
+    "name": "BBQ Chicken Pizza",
+    "description": "Smoky BBQ chicken with mozzarella cheese.",
+    "category": "pizza",
+    "images": [
+      "images/products/bbq-chicken-pizza-1.jpg"
+    ],
+    "basePrice": 1299,
+    "sizes": [
+      {
+        "id": "medium",
+        "label": "Medium (10\")",
+        "price": 1299,
+        "default": true
+      },
+      {
+        "id": "large",
+        "label": "Large (14\")",
+        "price": 1699
+      }
+    ],
+    "customizationGroups": [
+      "crust-type"
+    ],
+    "addOns": [
+      {
+        "id": "extra-cheese",
+        "label": "Extra Cheese",
+        "price": 150
+      },
+      {
+        "id": "extra-olives",
+        "label": "Extra Olives",
+        "price": 80
+      },
+      {
+        "id": "extra-jalapenos",
+        "label": "Extra Jalapeños",
+        "price": 80
+      }
+    ],
+    "availability": true,
+    "badge": {
+      "enabled": true,
+      "text": "Ramadan Offer",
+      "type": "occasion"
+    },
+    "featured": true,
+    "popular": false,
+    "rating": {
+      "average": 4.7,
+      "count": 94
+    },
+    "tags": [
+      "chicken",
+      "pizza"
+    ],
+    "seo": {
+      "title": "BBQ Chicken Pizza — ZYC Food",
+      "description": "Smoky BBQ chicken pizza with mozzarella, from Rs. 1,299.",
+      "url": "/product/bbq-chicken-pizza"
+    }
+  },
+  {
+    "id": "mixed-grill-platter",
+    "slug": "mixed-grill-platter",
+    "name": "Mixed Grill Platter",
+    "description": "A perfect blend of BBQ delights for grill lovers.",
+    "category": "bbq",
+    "images": [
+      "images/products/mixed-grill-platter-1.jpg"
+    ],
+    "basePrice": 2199,
+    "sizes": [],
+    "customizationGroups": [
+      "spice-level"
+    ],
+    "addOns": [
+      {
+        "id": "extra-naan",
+        "label": "Extra Naan",
+        "price": 100
+      },
+      {
+        "id": "extra-chutney",
+        "label": "Extra Chutney",
+        "price": 50
+      },
+      {
+        "id": "extra-salad",
+        "label": "Extra Salad",
+        "price": 100
+      }
+    ],
+    "availability": true,
+    "badge": {
+      "enabled": true,
+      "text": "Chef's Choice",
+      "type": "occasion"
+    },
+    "featured": true,
+    "popular": true,
+    "rating": {
+      "average": 4.9,
+      "count": 61
+    },
+    "tags": [
+      "bbq",
+      "platter",
+      "sharing"
+    ],
+    "seo": {
+      "title": "Mixed Grill Platter — ZYC Food",
+      "description": "A perfect blend of BBQ delights for grill lovers, Rs. 2,199.",
+      "url": "/product/mixed-grill-platter"
+    }
+  },
+  {
+    "id": "chicken-wrap",
+    "slug": "chicken-wrap",
+    "name": "Chicken Wrap",
+    "description": "Juicy chicken, veggies and special sauce.",
+    "category": "wraps",
+    "images": [
+      "images/products/chicken-wrap-1.jpg"
+    ],
+    "basePrice": 449,
+    "sizes": [
+      {
+        "id": "regular",
+        "label": "Regular",
+        "price": 449,
+        "default": true
+      },
+      {
+        "id": "large",
+        "label": "Large",
+        "price": 599
+      }
+    ],
+    "customizationGroups": [
+      "spice-level"
+    ],
+    "addOns": [
+      {
+        "id": "extra-cheese",
+        "label": "Extra Cheese",
+        "price": 80
+      },
+      {
+        "id": "extra-sauce",
+        "label": "Extra Sauce",
+        "price": 40
+      }
+    ],
+    "availability": true,
+    "badge": {
+      "enabled": true,
+      "text": "New",
+      "type": "occasion"
+    },
+    "featured": true,
+    "popular": false,
+    "rating": {
+      "average": 4.6,
+      "count": 37
+    },
+    "tags": [
+      "chicken",
+      "wrap"
+    ],
+    "seo": {
+      "title": "Chicken Wrap — ZYC Food",
+      "description": "Juicy chicken wrap with veggies and special sauce, Rs. 449.",
+      "url": "/product/chicken-wrap"
+    }
+  },
+  {
+    "id": "chicken-cheese-burger",
+    "slug": "chicken-cheese-burger",
+    "name": "Chicken Cheese Burger",
+    "description": "Grilled chicken fillet with a double layer of melted cheddar and creamy mayo.",
+    "category": "burgers",
+    "images": [
+      "images/products/chicken-cheese-burger-1.jpg"
+    ],
+    "basePrice": 599,
+    "sizes": [
+      {
+        "id": "regular",
+        "label": "Regular",
+        "price": 599,
+        "default": true
+      },
+      {
+        "id": "large",
+        "label": "Large",
+        "price": 749
+      }
+    ],
+    "customizationGroups": [
+      "spice-level"
+    ],
+    "addOns": [
+      {
+        "id": "extra-cheese",
+        "label": "Extra Cheese",
+        "price": 100
+      },
+      {
+        "id": "extra-sauce",
+        "label": "Extra Sauce",
+        "price": 50
+      },
+      {
+        "id": "extra-chicken",
+        "label": "Extra Chicken",
+        "price": 200
+      }
+    ],
+    "availability": true,
+    "badge": {
+      "enabled": true,
+      "text": "New",
+      "type": "occasion"
+    },
+    "featured": true,
+    "popular": true,
+    "rating": {
+      "average": 4.7,
+      "count": 86
+    },
+    "tags": [
+      "chicken",
+      "burger",
+      "cheese"
+    ],
+    "seo": {
+      "title": "Chicken Cheese Burger — ZYC Food",
+      "description": "Grilled chicken burger loaded with melted cheddar and creamy mayo, from Rs. 599.",
+      "url": "/product/chicken-cheese-burger"
+    }
+  },
+  {
+    "id": "beef-smash-burger",
+    "slug": "beef-smash-burger",
+    "name": "Beef Smash Burger",
+    "description": "Thin-smashed beef patties with caramelised edges, cheddar and burger sauce.",
+    "category": "burgers",
+    "images": [
+      "images/products/beef-smash-burger-1.jpg"
+    ],
+    "basePrice": 749,
+    "sizes": [
+      {
+        "id": "single",
+        "label": "Single",
+        "price": 749,
+        "default": true
+      },
+      {
+        "id": "double",
+        "label": "Double",
+        "price": 1049
+      }
+    ],
+    "customizationGroups": [
+      "spice-level"
+    ],
+    "addOns": [
+      {
+        "id": "extra-cheese",
+        "label": "Extra Cheese",
+        "price": 100
+      },
+      {
+        "id": "jalapenos",
+        "label": "Jalapeños",
+        "price": 60
+      },
+      {
+        "id": "extra-beef",
+        "label": "Extra Beef Patty",
+        "price": 250
+      }
+    ],
+    "availability": true,
+    "badge": {
+      "enabled": false,
+      "text": "",
+      "type": "occasion"
+    },
+    "featured": true,
+    "popular": false,
+    "rating": {
+      "average": 4.9,
+      "count": 54
+    },
+    "tags": [
+      "beef",
+      "burger",
+      "smash"
+    ],
+    "seo": {
+      "title": "Beef Smash Burger — ZYC Food",
+      "description": "Smashed beef patties with cheddar and house burger sauce, from Rs. 749.",
+      "url": "/product/beef-smash-burger"
+    }
+  },
+  {
+    "id": "pepperoni-pizza",
+    "slug": "pepperoni-pizza",
+    "name": "Pepperoni Pizza",
+    "description": "Classic pepperoni over mozzarella and slow-cooked tomato sauce.",
+    "category": "pizza",
+    "images": [
+      "images/products/pepperoni-pizza-1.jpg"
+    ],
+    "basePrice": 1399,
+    "sizes": [
+      {
+        "id": "medium",
+        "label": "Medium (10\")",
+        "price": 1399,
+        "default": true
+      },
+      {
+        "id": "large",
+        "label": "Large (14\")",
+        "price": 1799
+      }
+    ],
+    "customizationGroups": [
+      "crust-type"
+    ],
+    "addOns": [
+      {
+        "id": "extra-cheese",
+        "label": "Extra Cheese",
+        "price": 150
+      },
+      {
+        "id": "extra-olives",
+        "label": "Extra Olives",
+        "price": 80
+      },
+      {
+        "id": "extra-jalapenos",
+        "label": "Extra Jalapeños",
+        "price": 80
+      }
+    ],
+    "availability": true,
+    "badge": {
+      "enabled": false,
+      "text": "",
+      "type": "occasion"
+    },
+    "featured": false,
+    "popular": true,
+    "rating": {
+      "average": 4.6,
+      "count": 112
+    },
+    "tags": [
+      "pepperoni",
+      "pizza",
+      "bestseller"
+    ],
+    "seo": {
+      "title": "Pepperoni Pizza — ZYC Food",
+      "description": "Classic pepperoni pizza with mozzarella and tomato sauce, from Rs. 1,399.",
+      "url": "/product/pepperoni-pizza"
+    }
+  },
+  {
+    "id": "chicken-tikka-pizza",
+    "slug": "chicken-tikka-pizza",
+    "name": "Chicken Tikka Pizza",
+    "description": "Spiced tikka chicken, onions and capsicum on a mozzarella base.",
+    "category": "pizza",
+    "images": [
+      "images/products/chicken-tikka-pizza-1.jpg"
+    ],
+    "basePrice": 1449,
+    "sizes": [
+      {
+        "id": "medium",
+        "label": "Medium (10\")",
+        "price": 1449,
+        "default": true
+      },
+      {
+        "id": "large",
+        "label": "Large (14\")",
+        "price": 1849
+      },
+      {
+        "id": "family",
+        "label": "Family (18\")",
+        "price": 2499
+      }
+    ],
+    "customizationGroups": [
+      "crust-type",
+      "spice-level"
+    ],
+    "addOns": [
+      {
+        "id": "extra-cheese",
+        "label": "Extra Cheese",
+        "price": 150
+      },
+      {
+        "id": "extra-chicken",
+        "label": "Extra Chicken",
+        "price": 220
+      },
+      {
+        "id": "extra-jalapenos",
+        "label": "Extra Jalapeños",
+        "price": 80
+      }
+    ],
+    "availability": true,
+    "badge": {
+      "enabled": true,
+      "text": "Chef's Choice",
+      "type": "occasion"
+    },
+    "featured": true,
+    "popular": true,
+    "rating": {
+      "average": 4.8,
+      "count": 73
+    },
+    "tags": [
+      "chicken",
+      "pizza",
+      "tikka"
+    ],
+    "seo": {
+      "title": "Chicken Tikka Pizza — ZYC Food",
+      "description": "Chicken tikka pizza with onions, capsicum and mozzarella, from Rs. 1,449.",
+      "url": "/product/chicken-tikka-pizza"
+    }
+  },
+  {
+    "id": "chicken-seekh-kebab-platter",
+    "slug": "chicken-seekh-kebab-platter",
+    "name": "Chicken Seekh Kebab Platter",
+    "description": "Six charcoal-grilled chicken seekh kebabs with naan, chutney and salad.",
+    "category": "bbq",
+    "images": [
+      "images/products/chicken-seekh-kebab-platter-1.jpg"
+    ],
+    "basePrice": 1249,
+    "sizes": [],
+    "customizationGroups": [
+      "spice-level"
+    ],
+    "addOns": [
+      {
+        "id": "extra-naan",
+        "label": "Extra Naan",
+        "price": 100
+      },
+      {
+        "id": "extra-chutney",
+        "label": "Extra Chutney",
+        "price": 50
+      },
+      {
+        "id": "extra-salad",
+        "label": "Extra Salad",
+        "price": 100
+      }
+    ],
+    "availability": true,
+    "badge": {
+      "enabled": false,
+      "text": "",
+      "type": "occasion"
+    },
+    "featured": false,
+    "popular": true,
+    "rating": {
+      "average": 4.7,
+      "count": 48
+    },
+    "tags": [
+      "chicken",
+      "bbq",
+      "kebab",
+      "platter"
+    ],
+    "seo": {
+      "title": "Chicken Seekh Kebab Platter — ZYC Food",
+      "description": "Charcoal-grilled chicken seekh kebab platter with naan and chutney, Rs. 1,249.",
+      "url": "/product/chicken-seekh-kebab-platter"
+    }
+  },
+  {
+    "id": "malai-boti",
+    "slug": "malai-boti",
+    "name": "Malai Boti",
+    "description": "Creamy marinated chicken boti, slow-grilled over charcoal until tender.",
+    "category": "bbq",
+    "images": [
+      "images/products/malai-boti-1.jpg"
+    ],
+    "basePrice": 1099,
+    "sizes": [
+      {
+        "id": "regular",
+        "label": "Regular",
+        "price": 1099,
+        "default": true
+      },
+      {
+        "id": "large",
+        "label": "Large",
+        "price": 1599
+      }
+    ],
+    "customizationGroups": [
+      "spice-level"
+    ],
+    "addOns": [
+      {
+        "id": "extra-chicken",
+        "label": "Extra Chicken",
+        "price": 300
+      },
+      {
+        "id": "extra-naan",
+        "label": "Extra Naan",
+        "price": 100
+      },
+      {
+        "id": "raita",
+        "label": "Raita",
+        "price": 80
+      }
+    ],
+    "availability": true,
+    "badge": {
+      "enabled": false,
+      "text": "",
+      "type": "occasion"
+    },
+    "featured": true,
+    "popular": true,
+    "rating": {
+      "average": 4.9,
+      "count": 65
+    },
+    "tags": [
+      "chicken",
+      "bbq",
+      "malai"
+    ],
+    "seo": {
+      "title": "Malai Boti — ZYC Food",
+      "description": "Creamy charcoal-grilled malai boti, tender and lightly spiced, from Rs. 1,099.",
+      "url": "/product/malai-boti"
+    }
+  },
+  {
+    "id": "peri-peri-chicken-wrap",
+    "slug": "peri-peri-chicken-wrap",
+    "name": "Peri Peri Chicken Wrap",
+    "description": "Flame-grilled peri peri chicken with salad and garlic mayo in a toasted tortilla.",
+    "category": "wraps",
+    "images": [
+      "images/products/peri-peri-chicken-wrap-1.jpg"
+    ],
+    "basePrice": 549,
+    "sizes": [
+      {
+        "id": "regular",
+        "label": "Regular",
+        "price": 549,
+        "default": true
+      },
+      {
+        "id": "large",
+        "label": "Large",
+        "price": 699
+      }
+    ],
+    "customizationGroups": [
+      "spice-level"
+    ],
+    "addOns": [
+      {
+        "id": "extra-cheese",
+        "label": "Extra Cheese",
+        "price": 80
+      },
+      {
+        "id": "extra-sauce",
+        "label": "Extra Sauce",
+        "price": 40
+      },
+      {
+        "id": "extra-chicken",
+        "label": "Extra Chicken",
+        "price": 200
+      }
+    ],
+    "availability": true,
+    "badge": {
+      "enabled": false,
+      "text": "",
+      "type": "occasion"
+    },
+    "featured": false,
+    "popular": true,
+    "rating": {
+      "average": 4.6,
+      "count": 41
+    },
+    "tags": [
+      "chicken",
+      "wrap",
+      "peri peri"
+    ],
+    "seo": {
+      "title": "Peri Peri Chicken Wrap — ZYC Food",
+      "description": "Flame-grilled peri peri chicken wrap with garlic mayo, from Rs. 549.",
+      "url": "/product/peri-peri-chicken-wrap"
+    }
+  },
+  {
+    "id": "beef-shawarma-wrap",
+    "slug": "beef-shawarma-wrap",
+    "name": "Beef Shawarma Wrap",
+    "description": "Slow-roasted beef shawarma with tahini, pickles and fresh salad.",
+    "category": "wraps",
+    "images": [
+      "images/products/beef-shawarma-wrap-1.jpg"
+    ],
+    "basePrice": 599,
+    "sizes": [
+      {
+        "id": "regular",
+        "label": "Regular",
+        "price": 599,
+        "default": true
+      },
+      {
+        "id": "large",
+        "label": "Large",
+        "price": 749
+      }
+    ],
+    "customizationGroups": [
+      "spice-level"
+    ],
+    "addOns": [
+      {
+        "id": "extra-cheese",
+        "label": "Extra Cheese",
+        "price": 80
+      },
+      {
+        "id": "extra-sauce",
+        "label": "Extra Sauce",
+        "price": 40
+      }
+    ],
+    "availability": true,
+    "badge": {
+      "enabled": false,
+      "text": "",
+      "type": "occasion"
+    },
+    "featured": false,
+    "popular": false,
+    "rating": {
+      "average": 4.5,
+      "count": 58
+    },
+    "tags": [
+      "beef",
+      "wrap",
+      "shawarma"
+    ],
+    "seo": {
+      "title": "Beef Shawarma Wrap — ZYC Food",
+      "description": "Slow-roasted beef shawarma wrap with tahini and pickles, from Rs. 599.",
+      "url": "/product/beef-shawarma-wrap"
+    }
+  },
+  {
+    "id": "fresh-lime",
+    "slug": "fresh-lime",
+    "name": "Fresh Lime",
+    "description": "Hand-squeezed lime with soda, served over ice.",
+    "category": "drinks",
+    "images": [
+      "images/products/fresh-lime-1.jpg"
+    ],
+    "basePrice": 199,
+    "sizes": [
+      {
+        "id": "regular",
+        "label": "Regular",
+        "price": 199,
+        "default": true
+      },
+      {
+        "id": "large",
+        "label": "Large",
+        "price": 299
+      }
+    ],
+    "customizationGroups": [],
+    "addOns": [
+      {
+        "id": "extra-lemon",
+        "label": "Extra Lemon",
+        "price": 30
+      },
+      {
+        "id": "fresh-mint",
+        "label": "Fresh Mint",
+        "price": 30
+      }
+    ],
+    "availability": true,
+    "badge": {
+      "enabled": true,
+      "text": "Summer Special",
+      "type": "occasion"
+    },
+    "featured": false,
+    "popular": false,
+    "rating": {
+      "average": 4.4,
+      "count": 23
+    },
+    "tags": [
+      "drink",
+      "lime",
+      "refreshing"
+    ],
+    "seo": {
+      "title": "Fresh Lime — ZYC Food",
+      "description": "Hand-squeezed fresh lime soda served over ice, from Rs. 199.",
+      "url": "/product/fresh-lime"
+    }
+  },
+  {
+    "id": "chocolate-lava-cake",
+    "slug": "chocolate-lava-cake",
+    "name": "Chocolate Lava Cake",
+    "description": "Warm dark chocolate cake with a molten centre, dusted with cocoa.",
+    "category": "desserts",
+    "images": [
+      "images/products/chocolate-lava-cake-1.jpg"
+    ],
+    "basePrice": 449,
+    "sizes": [
+      {
+        "id": "single",
+        "label": "Single",
+        "price": 449,
+        "default": true
+      },
+      {
+        "id": "double",
+        "label": "Double",
+        "price": 799
+      }
+    ],
+    "customizationGroups": [],
+    "addOns": [
+      {
+        "id": "vanilla-ice-cream",
+        "label": "Vanilla Ice Cream",
+        "price": 150
+      },
+      {
+        "id": "chocolate-sauce",
+        "label": "Chocolate Sauce",
+        "price": 60
+      }
+    ],
+    "availability": true,
+    "badge": {
+      "enabled": true,
+      "text": "New",
+      "type": "occasion"
+    },
+    "featured": true,
+    "popular": true,
+    "rating": {
+      "average": 4.8,
+      "count": 37
+    },
+    "tags": [
+      "dessert",
+      "chocolate",
+      "sweet"
+    ],
+    "seo": {
+      "title": "Chocolate Lava Cake — ZYC Food",
+      "description": "Warm chocolate lava cake with a molten centre, from Rs. 449.",
+      "url": "/product/chocolate-lava-cake"
+    }
+  }
+]

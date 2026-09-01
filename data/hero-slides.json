@@ -1,0 +1,24 @@
+[
+  {
+    "id": "slide-1",
+    "image": "images/branding/hero-1.jpg",
+    "eyebrow": "DISCOVER",
+    "headline": "EXTRAORDINARY FLAVORS",
+    "headlineAccent": "FLAVORS",
+    "subtext": "Premium ingredients. Perfectly crafted. Delivered to you.",
+    "ctaPrimary": { "label": "ORDER NOW", "link": "menu.html" },
+    "ctaSecondary": { "label": "VIEW MENU", "link": "menu.html" },
+    "badge": null
+  },
+  {
+    "id": "slide-2",
+    "image": "images/branding/hero-2.jpg",
+    "eyebrow": "LIMITED TIME",
+    "headline": "EID SPECIAL FEAST",
+    "headlineAccent": "FEAST",
+    "subtext": "Celebrate with our Chef's Choice platters, made for sharing.",
+    "ctaPrimary": { "label": "ORDER NOW", "link": "deals.html" },
+    "ctaSecondary": { "label": "VIEW DEALS", "link": "deals.html" },
+    "badge": { "enabled": true, "text": "Eid Special", "type": "occasion" }
+  }
+]

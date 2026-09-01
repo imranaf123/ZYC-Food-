@@ -1,0 +1,67 @@
+{
+  "restaurantName": "ZYC Food",
+  "tagline": "Premium ingredients. Perfectly crafted. Delivered to you.",
+  "logo": {
+    "wordmarkTop": "ZYC",
+    "wordmarkBottom": "FOOD",
+    "image": "images/branding/zyc-logo.svg"
+  },
+  "contact": {
+    "phone": "+92 313 380 1788",
+    "whatsappNumber": "+923133801788",
+    "email": "hello@zycfood.com",
+    "address": "Shop 4, Main Boulevard, Lahore, Pakistan"
+  },
+  "openingHours": [
+    { "day": "Monday", "open": "12:00", "close": "23:30" },
+    { "day": "Tuesday", "open": "12:00", "close": "23:30" },
+    { "day": "Wednesday", "open": "12:00", "close": "23:30" },
+    { "day": "Thursday", "open": "12:00", "close": "23:30" },
+    { "day": "Friday", "open": "14:00", "close": "00:30" },
+    { "day": "Saturday", "open": "12:00", "close": "00:30" },
+    { "day": "Sunday", "open": "12:00", "close": "23:30" }
+  ],
+  "currency": { "code": "PKR", "symbol": "Rs." },
+  "socialLinks": { "instagram": "", "facebook": "", "tiktok": "" },
+  "seoDefaults": {
+    "siteTitle": "ZYC Food — Premium Burgers, Pizza & BBQ",
+    "siteDescription": "Premium ingredients, perfectly crafted. Order online for delivery or pickup from ZYC Food.",
+    "ogImage": "images/branding/og-cover.jpg",
+    "siteUrl": "https://zycfood.com"
+  },
+  "sectionVisibility": {
+    "heroCarousel": true,
+    "categories": true,
+    "chefSpecials": true,
+    "deals": true,
+    "reviews": true,
+    "occasionPromotions": true
+  },
+  "heroFeatureStrip": [
+    { "icon": "truck", "label": "Fast Delivery", "sublabel": "30–45 mins" },
+    { "icon": "shopping-bag", "label": "Pickup Available", "sublabel": "Skip the line" },
+    { "icon": "map-pin", "label": "Distance Based Fee", "sublabel": "Pay as per distance" },
+    { "icon": "message-circle", "label": "WhatsApp Order", "sublabel": "Easy & Direct" }
+  ],
+  "footerFeatureHighlights": [
+    { "icon": "tag", "title": "Occasion Offers", "text": "Highlight special events & occasions" },
+    { "icon": "map-pin", "title": "Distance Based Delivery", "text": "Customer selects distance & fee updates instantly" },
+    { "icon": "message-circle", "title": "WhatsApp Ordering", "text": "One-click ordering via WhatsApp" },
+    { "icon": "smartphone", "title": "PWA App Experience", "text": "Install on home screen like a native app" },
+    { "icon": "monitor-smartphone", "title": "Fully Responsive", "text": "Perfect experience on all devices" }
+  ],
+  "about": {
+    "heading": "Crafted with fire, served with pride",
+    "story": [
+      "ZYC Food began with one simple idea: the food people order at home should be every bit as good as the food they sit down for. We started with a single grill, a family recipe for our signature sauce, and a stubborn refusal to cut corners.",
+      "Every burger is built to order. Every pizza base is pressed the same morning it is served. Our BBQ is cooked over real charcoal, never a shortcut. We buy our chicken fresh daily and our produce from growers we know by name.",
+      "Today we serve thousands of orders a month for delivery and pickup — and each one still leaves the pass the same way: hot, generous, and made exactly how you asked for it."
+    ],
+    "stats": [
+      { "value": "12+", "label": "Years on the grill" },
+      { "value": "60k+", "label": "Orders delivered" },
+      { "value": "4.8", "label": "Average rating" },
+      { "value": "100%", "label": "Fresh daily prep" }
+    ]
+  }
+}

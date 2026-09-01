@@ -1,0 +1,5 @@
+[
+  { "id": "r1", "customerName": "Ayesha K.", "rating": 5, "reviewText": "The Zinger Burger is easily the best in town — crispy, juicy, perfectly spiced.", "date": "2026-07-10", "image": null, "active": true, "featured": true },
+  { "id": "r2", "customerName": "Bilal R.", "rating": 4, "reviewText": "Ordered the Mixed Grill Platter for a family dinner, huge portion and great flavor.", "date": "2026-07-02", "image": null, "active": true, "featured": false },
+  { "id": "r3", "customerName": "Hina S.", "rating": 5, "reviewText": "Delivery was fast and the WhatsApp ordering made everything so easy.", "date": "2026-06-20", "image": null, "active": true, "featured": true }
+]

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemap.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <url><loc>https://zycfood.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://zycfood.com/menu.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://zycfood.com/deals.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://zycfood.com/product.html?slug=zinger-burger</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://zycfood.com/product.html?slug=bbq-chicken-pizza</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://zycfood.com/product.html?slug=mixed-grill-platter</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://zycfood.com/product.html?slug=chicken-wrap</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://zycfood.com/reviews.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://zycfood.com/about.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://zycfood.com/contact.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://zycfood.com/how-ordering-works.html</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+</urlset>

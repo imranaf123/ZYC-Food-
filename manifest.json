@@ -1,0 +1,24 @@
+{
+  "name": "ZYC Food",
+  "short_name": "ZYC",
+  "description": "Premium restaurant ordering — burgers, pizza, BBQ & more.",
+  "start_url": "index.html",
+  "scope": "./",
+  "id": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0B0B0C",
+  "theme_color": "#0B0B0C",
+  "categories": ["food", "shopping", "lifestyle"],
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    { "src": "images/branding/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "images/branding/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    { "name": "View the menu", "short_name": "Menu", "url": "menu.html" },
+    { "name": "Today's deals", "short_name": "Deals", "url": "deals.html" },
+    { "name": "Your cart", "short_name": "Cart", "url": "cart.html" }
+  ]
+}

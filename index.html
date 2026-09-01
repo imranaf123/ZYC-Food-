@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ZYC Food — Premium Burgers, Pizza &amp; BBQ Delivered</title>
+<meta name="description" content="Premium ingredients, perfectly crafted. Order burgers, pizza, BBQ and wraps online from ZYC Food for fast delivery or pickup.">
+<link rel="canonical" href="https://zycfood.com/">
+<meta name="theme-color" content="#0B0B0C">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ZYC Food">
+<meta property="og:title" content="ZYC Food — Premium Burgers, Pizza &amp; BBQ Delivered">
+<meta property="og:description" content="Premium ingredients, perfectly crafted. Order online for delivery or pickup from ZYC Food.">
+<meta property="og:url" content="https://zycfood.com/">
+<meta property="og:image" content="https://zycfood.com/images/branding/og-cover.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ZYC Food — Premium Burgers, Pizza &amp; BBQ Delivered">
+<meta name="twitter:description" content="Premium ingredients, perfectly crafted. Order online for delivery or pickup from ZYC Food.">
+<meta name="twitter:image" content="https://zycfood.com/images/branding/og-cover.jpg">
+
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="images/branding/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="images/branding/icon-192.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700;800&display=swap">
+
+<link rel="preload" as="image" href="images/branding/hero-1.jpg">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/pages.css">
+</head>
+<body data-page="home">
+<a class="skip-link" href="#main">Skip to content</a>
+<header id="site-header"></header>
+
+<main id="main">
+
+  <!-- HERO CAROUSEL -->
+  <section class="hero" id="hero" aria-roledescription="carousel" aria-label="Featured offers" tabindex="-1">
+    <div class="hero__viewport" id="hero-viewport">
+      <div class="skeleton" style="position:absolute;inset:0;border-radius:0"></div>
+    </div>
+    <div class="hero__controls container">
+      <div class="carousel-dots" id="hero-dots" role="tablist" aria-label="Hero slides"></div>
+      <div class="carousel-arrows">
+        <button class="carousel-arrow" type="button" id="hero-prev" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m15 5-7 7 7 7"/></svg></button>
+        <button class="carousel-arrow" type="button" id="hero-next" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m9 5 7 7-7 7"/></svg></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURE STRIP -->
+  <div class="container" style="padding-inline:0">
+    <div class="feature-strip" id="feature-strip" aria-label="Service highlights"></div>
+  </div>
+
+  <!-- CATEGORIES -->
+  <section class="section" id="section-categories" aria-labelledby="categories-title">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <span class="eyebrow">Browse the kitchen</span>
+          <h2 class="section-title" id="categories-title">Explore Our Categories</h2>
+        </div>
+        <a class="link-more" href="menu.html">View All Categories <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></a>
+      </div>
+      <div class="categories-grid reveal" id="categories-grid"></div>
+      <div class="hscroll categories-scroller hscroll--edge" id="categories-scroller"></div>
+    </div>
+  </section>
+
+  <!-- CHEF'S SPECIALS -->
+  <section class="section section--tight home-specials" id="section-specials" aria-labelledby="specials-title">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <span class="eyebrow">Hand picked</span>
+          <h2 class="section-title" id="specials-title">Chef's Specials</h2>
+        </div>
+        <a class="link-more" href="menu.html">View All <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></a>
+      </div>
+      <div class="products-grid reveal" id="specials-grid"></div>
+      <div class="hscroll specials-scroller hscroll--edge" id="specials-scroller"></div>
+    </div>
+  </section>
+
+  <!-- OCCASION PROMOTIONS -->
+  <section class="section section--tight" id="section-occasions" aria-labelledby="occasions-title">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <span class="eyebrow">Right now</span>
+          <h2 class="section-title" id="occasions-title">Occasion Offers</h2>
+          <p class="muted small">Seasonal and event badges are pulled automatically from your menu data.</p>
+        </div>
+      </div>
+      <div class="occasion-strip reveal" id="occasion-strip"></div>
+    </div>
+  </section>
+
+  <!-- DEALS -->
+  <section class="section" id="section-deals" aria-labelledby="deals-title">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <span class="eyebrow">Better together</span>
+          <h2 class="section-title" id="deals-title">Deals &amp; Combos</h2>
+        </div>
+        <a class="link-more" href="deals.html">All Deals <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></a>
+      </div>
+      <div class="deals-grid reveal" id="deals-grid"></div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="section" id="section-reviews" aria-labelledby="reviews-title">
+    <div class="container">
+      <div class="section-head reveal">
+        <div>
+          <span class="eyebrow">Loved by guests</span>
+          <h2 class="section-title" id="reviews-title">What Our Customers Say</h2>
+          <div class="rating-line mt-2" id="reviews-summary-line"></div>
+        </div>
+        <a class="link-more" href="reviews.html">All Reviews <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></a>
+      </div>
+      <div class="reviews-grid reveal" id="reviews-grid"></div>
+    </div>
+  </section>
+
+  <!-- RESTAURANT INFO -->
+  <section class="section section--tight" aria-labelledby="info-title">
+    <div class="container">
+      <div class="info-panel reveal">
+        <div class="info-panel__left">
+          <span class="eyebrow">Visit or order in</span>
+          <h2 class="section-title" id="info-title">Restaurant Information</h2>
+          <span class="open-pill" id="info-status"></span>
+          <ul class="product-meta-list" id="info-address"></ul>
+          <div class="divider"></div>
+          <ul class="hours-list" id="info-hours"></ul>
+        </div>
+        <div class="info-panel__right">
+          <div class="map-placeholder">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <strong>Map placeholder</strong>
+            <span>Drop your Google Maps embed here when the real address is confirmed.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BAND -->
+  <section class="section section--tight">
+    <div class="container">
+      <div class="cta-band reveal">
+        <div>
+          <span class="eyebrow">Hungry already?</span>
+          <h2>Order in under a minute</h2>
+          <p>Build your order, pick delivery or pickup, and send it straight to our kitchen on WhatsApp. No apps, no accounts, no waiting on hold.</p>
+        </div>
+        <div class="cta-band__actions">
+          <a class="btn btn--primary btn--lg" href="menu.html">Start Your Order</a>
+          <a class="btn btn--outline btn--lg" href="how-ordering-works.html">How It Works</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<nav id="bottom-nav"></nav>
+<footer id="site-footer"></footer>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

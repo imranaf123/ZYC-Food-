@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>My Favorites — ZYC Food</title>
+<meta name="description" content="The ZYC Food dishes you have saved. Add them straight to your cart or remove them any time.">
+<link rel="canonical" href="https://zycfood.com/favourites.html">
+<meta name="theme-color" content="#0B0B0C">
+<meta name="robots" content="noindex,follow">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ZYC Food">
+<meta property="og:title" content="My Favorites — ZYC Food">
+<meta property="og:description" content="The ZYC Food dishes you have saved. Add them straight to your cart or remove them any time.">
+<meta property="og:url" content="https://zycfood.com/favourites.html">
+<meta property="og:image" content="https://zycfood.com/images/branding/og-cover.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="My Favorites — ZYC Food">
+<meta name="twitter:description" content="The ZYC Food dishes you have saved. Add them straight to your cart or remove them any time.">
+<meta name="twitter:image" content="https://zycfood.com/images/branding/og-cover.jpg">
+
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="images/branding/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="images/branding/icon-192.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700;800&display=swap">
+
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/pages.css">
+</head>
+<body data-page="favourites">
+<a class="skip-link" href="#main">Skip to content</a>
+<header id="site-header"></header>
+<main id="main">
+
+  <section class="page-hero">
+    <div class="container">
+      <div id="favourites-breadcrumbs"></div>
+      <span class="eyebrow">Saved for later</span>
+      <h1>My Favorites</h1>
+      <p>Every dish you've tapped the heart on lives here, ready to drop into your next order.</p>
+      <p class="small muted mt-2" id="favourites-count" aria-live="polite"></p>
+      <div class="row gap-3 mt-4" id="favourites-actions" style="flex-wrap:wrap"></div>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container">
+      <div id="favourites-grid"></div>
+    </div>
+  </section>
+
+</main>
+<nav id="bottom-nav"></nav>
+<footer id="site-footer"></footer>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

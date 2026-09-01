@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Menu — Burgers, Pizza, BBQ &amp; Wraps | ZYC Food</title>
+<meta name="description" content="Browse the full ZYC Food menu: signature burgers, wood-fired pizza, charcoal BBQ platters, wraps, drinks and desserts. Order for delivery or pickup.">
+<link rel="canonical" href="https://zycfood.com/menu.html">
+<meta name="theme-color" content="#0B0B0C">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ZYC Food">
+<meta property="og:title" content="Menu — Burgers, Pizza, BBQ &amp; Wraps | ZYC Food">
+<meta property="og:description" content="Browse the full ZYC Food menu: signature burgers, wood-fired pizza, charcoal BBQ platters, wraps, drinks and desserts. Order for delivery or pickup.">
+<meta property="og:url" content="https://zycfood.com/menu.html">
+<meta property="og:image" content="https://zycfood.com/images/branding/og-cover.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Menu — Burgers, Pizza, BBQ &amp; Wraps | ZYC Food">
+<meta name="twitter:description" content="Browse the full ZYC Food menu: signature burgers, wood-fired pizza, charcoal BBQ platters, wraps, drinks and desserts. Order for delivery or pickup.">
+<meta name="twitter:image" content="https://zycfood.com/images/branding/og-cover.jpg">
+
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="images/branding/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="images/branding/icon-192.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700;800&display=swap">
+
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/pages.css">
+</head>
+<body data-page="menu">
+<a class="skip-link" href="#main">Skip to content</a>
+<header id="site-header"></header>
+<main id="main">
+
+  <section class="page-hero">
+    <div class="container">
+      <div id="menu-breadcrumbs"></div>
+      <span class="eyebrow">The full spread</span>
+      <h1>Our Menu</h1>
+      <p>Every dish is made to order with premium ingredients. Filter by category, or search for exactly what you're craving.</p>
+    </div>
+  </section>
+
+  <div class="menu-toolbar">
+    <div class="container menu-toolbar__inner">
+      <div class="category-tabs" id="category-tabs" role="tablist" aria-label="Menu categories"></div>
+      <div class="menu-search">
+        <label class="sr-only" for="menu-search-input">Search the menu</label>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.2-3.2"/></svg>
+        <input class="input" id="menu-search-input" type="search" placeholder="Search dishes…" autocomplete="off">
+      </div>
+    </div>
+  </div>
+
+  <section class="section section--tight" aria-label="Menu items">
+    <div class="container">
+      <p class="menu-count" id="menu-count" aria-live="polite"></p>
+      <div class="products-grid" id="menu-grid"></div>
+      <div id="menu-empty"></div>
+    </div>
+  </section>
+</main>
+<nav id="bottom-nav"></nav>
+<footer id="site-footer"></footer>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

@@ -880,5 +880,191 @@
       "description": "Warm chocolate lava cake with a molten centre, from Rs. 449.",
       "url": "/product/chocolate-lava-cake"
     }
-  }
+  }, 
+  {
+  "id": "prod_coke",
+  "name": "Coca-Cola",
+  "slug": "coca-cola",
+  "description": "Refreshing Coca-Cola served chilled and ready to enjoy with your meal.",
+  "category": "drinks",
+  "images": [
+    "images/products/coke.png"
+  ],
+
+  "price": {
+    "currency": "PKR",
+    "base": 60
+  },
+
+  "sizes": [
+    {
+      "id": "300ml",
+      "name": "300 ml",
+      "price": 60,
+      "default": true
+    },
+    {
+      "id": "1liter",
+      "name": "1 Liter",
+      "price": 150,
+      "default": false
+    },
+    {
+      "id": "1_5liter",
+      "name": "1.5 Liter",
+      "price": 200,
+      "default": false
+    }
+  ],
+
+  "customizations": [],
+
+  "addons": [],
+
+  "badge": {
+    "enabled": false,
+    "text": "",
+    "type": ""
+  },
+
+  "availability": {
+    "available": true,
+    "label": "Available"
+  },
+
+  "featured": false,
+  "popular": false,
+
+  "tags": [
+    "drink",
+    "soft-drink",
+    "coca-cola"
+  ],
+
+  "special_instructions": false
+},
+{
+  "id": "prod_pepsi",
+  "name": "Pepsi",
+  "slug": "pepsi",
+  "description": "Classic Pepsi served chilled and perfect alongside your favorite meal.",
+  "category": "drinks",
+  "images": [
+    "images/products/pepsi.png"
+  ],
+
+  "price": {
+    "currency": "PKR",
+    "base": 60
+  },
+
+  "sizes": [
+    {
+      "id": "300ml",
+      "name": "300 ml",
+      "price": 60,
+      "default": true
+    },
+    {
+      "id": "1liter",
+      "name": "1 Liter",
+      "price": 150,
+      "default": false
+    },
+    {
+      "id": "1_5liter",
+      "name": "1.5 Liter",
+      "price": 200,
+      "default": false
+    }
+  ],
+
+  "customizations": [],
+
+  "addons": [],
+
+  "badge": {
+    "enabled": false,
+    "text": "",
+    "type": ""
+  },
+
+  "availability": {
+    "available": true,
+    "label": "Available"
+  },
+
+  "featured": false,
+  "popular": false,
+
+  "tags": [
+    "drink",
+    "soft-drink",
+    "pepsi"
+  ],
+
+  "special_instructions": false
+},
+{
+  "id": "prod_sprite",
+  "name": "Sprite",
+  "slug": "sprite",
+  "description": "Crisp and refreshing Sprite served chilled with your favorite meal.",
+  "category": "drinks",
+  "images": [
+    "images/products/saprite.png"
+  ],
+
+  "price": {
+    "currency": "PKR",
+    "base": 60
+  },
+
+  "sizes": [
+    {
+      "id": "300ml",
+      "name": "300 ml",
+      "price": 60,
+      "default": true
+    },
+    {
+      "id": "1liter",
+      "name": "1 Liter",
+      "price": 150,
+      "default": false
+    },
+    {
+      "id": "1_5liter",
+      "name": "1.5 Liter",
+      "price": 200,
+      "default": false
+    }
+  ],
+
+  "customizations": [],
+
+  "addons": [],
+
+  "badge": {
+    "enabled": false,
+    "text": "",
+    "type": ""
+  },
+
+  "availability": {
+    "available": true,
+    "label": "Available"
+  },
+
+  "featured": false,
+  "popular": false,
+
+  "tags": [
+    "drink",
+    "soft-drink",
+    "sprite"
+  ],
+
+  "special_instructions": false
+}
 ]

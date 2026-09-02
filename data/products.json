@@ -994,77 +994,163 @@
     "label": "Available"
   },
 
+{
+  "id": "coca-cola",
+  "slug": "coca-cola",
+  "name": "Coca-Cola",
+  "description": "Refreshing Coca-Cola served chilled and ready to enjoy with your meal.",
+  "category": "drinks",
+  "images": [
+    "images/products/coke.png"
+  ],
+  "basePrice": 60,
+  "sizes": [
+    {
+      "id": "300ml",
+      "label": "300 ml",
+      "price": 60,
+      "default": true
+    },
+    {
+      "id": "1-liter",
+      "label": "1 Liter",
+      "price": 150
+    },
+    {
+      "id": "1-5-liter",
+      "label": "1.5 Liter",
+      "price": 200
+    }
+  ],
+  "customizationGroups": [],
+  "addOns": [],
+  "availability": true,
+  "badge": {
+    "enabled": false,
+    "text": "",
+    "type": "occasion"
+  },
   "featured": false,
   "popular": false,
-
+  "rating": {
+    "average": 4.5,
+    "count": 0
+  },
+  "tags": [
+    "drink",
+    "soft-drink",
+    "coca-cola"
+  ],
+  "seo": {
+    "title": "Coca-Cola — ZYC Food",
+    "description": "Refreshing Coca-Cola available in 300 ml, 1 Liter and 1.5 Liter sizes.",
+    "url": "/product/coca-cola"
+  }
+},
+{
+  "id": "pepsi",
+  "slug": "pepsi",
+  "name": "Pepsi",
+  "description": "Classic Pepsi served chilled and perfect alongside your favorite meal.",
+  "category": "drinks",
+  "images": [
+    "images/products/pepsi.png"
+  ],
+  "basePrice": 60,
+  "sizes": [
+    {
+      "id": "300ml",
+      "label": "300 ml",
+      "price": 60,
+      "default": true
+    },
+    {
+      "id": "1-liter",
+      "label": "1 Liter",
+      "price": 150
+    },
+    {
+      "id": "1-5-liter",
+      "label": "1.5 Liter",
+      "price": 200
+    }
+  ],
+  "customizationGroups": [],
+  "addOns": [],
+  "availability": true,
+  "badge": {
+    "enabled": false,
+    "text": "",
+    "type": "occasion"
+  },
+  "featured": false,
+  "popular": false,
+  "rating": {
+    "average": 4.5,
+    "count": 0
+  },
   "tags": [
     "drink",
     "soft-drink",
     "pepsi"
   ],
-
-  "special_instructions": false
+  "seo": {
+    "title": "Pepsi — ZYC Food",
+    "description": "Classic Pepsi available in 300 ml, 1 Liter and 1.5 Liter sizes.",
+    "url": "/product/pepsi"
+  }
 },
 {
-  "id": "prod_sprite",
-  "name": "Sprite",
+  "id": "sprite",
   "slug": "sprite",
+  "name": "Sprite",
   "description": "Crisp and refreshing Sprite served chilled with your favorite meal.",
   "category": "drinks",
   "images": [
     "images/products/saprite.png"
   ],
-
-  "price": {
-    "currency": "PKR",
-    "base": 60
-  },
-
+  "basePrice": 60,
   "sizes": [
     {
       "id": "300ml",
-      "name": "300 ml",
+      "label": "300 ml",
       "price": 60,
       "default": true
     },
     {
-      "id": "1liter",
-      "name": "1 Liter",
-      "price": 150,
-      "default": false
+      "id": "1-liter",
+      "label": "1 Liter",
+      "price": 150
     },
     {
-      "id": "1_5liter",
-      "name": "1.5 Liter",
-      "price": 200,
-      "default": false
+      "id": "1-5-liter",
+      "label": "1.5 Liter",
+      "price": 200
     }
   ],
-
-  "customizations": [],
-
-  "addons": [],
-
+  "customizationGroups": [],
+  "addOns": [],
+  "availability": true,
   "badge": {
     "enabled": false,
     "text": "",
-    "type": ""
+    "type": "occasion"
   },
-
-  "availability": {
-    "available": true,
-    "label": "Available"
-  },
-
   "featured": false,
   "popular": false,
-
+  "rating": {
+    "average": 4.5,
+    "count": 0
+  },
   "tags": [
     "drink",
     "soft-drink",
     "sprite"
   ],
-
-  "special_instructions": false
+  "seo": {
+    "title": "Sprite — ZYC Food",
+    "description": "Crisp and refreshing Sprite available in 300 ml, 1 Liter and 1.5 Liter sizes.",
+    "url": "/product/sprite"
+  }
 }
 ]

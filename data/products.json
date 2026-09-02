@@ -907,13 +907,13 @@
       "id": "1liter",
       "name": "1 Liter",
       "price": 150,
-      "default": false
+      "default": true
     },
     {
       "id": "1_5liter",
       "name": "1.5 Liter",
       "price": 200,
-      "default": false
+      "default": true
     }
   ],
 
@@ -969,13 +969,13 @@
       "id": "1liter",
       "name": "1 Liter",
       "price": 150,
-      "default": false
+      "default": true
     },
     {
       "id": "1_5liter",
       "name": "1.5 Liter",
       "price": 200,
-      "default": false
+      "default": true
     }
   ],
 
